@@ -17,6 +17,3 @@ RUN yarn install
 
 # Set the command to start the node server.
 CMD yarn start
-
-# Tell Docker about the port we'll run on.
-EXPOSE 3000

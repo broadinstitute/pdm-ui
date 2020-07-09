@@ -8,7 +8,7 @@ This project is the frontend for the Health Data Manager.
 
 ### System Requirements
  - Yarn, v1.7.0 or higher
- - Instance of the [hdm-backend](https://github.com/health-data-manager/hdm-backend) server up and running
+ - Instance of the [pdm-backend](https://github.com/health-data-manager/pdm-backend) server up and running
 
 ### Installation
 ```
@@ -27,7 +27,7 @@ yarn test
 ```
 
 ### Configuration Options
-The HDM UI uses environment variables to set various configuration options. These variables may be set using conventional OS environment variables, or using a `.env` file 
+The PDM  UI uses environment variables to set various configuration options. These variables may be set using conventional OS environment variables, or using a `.env` file 
 
 Using environment variables in \*nix:
 ```
@@ -41,7 +41,8 @@ yarn start
 
 Using environment variables in Windows:
 ```
-set REACT_APP_BACKEND_URL=http://127.0.0.1:9090
+set REACT_APP_BACKEND_URL=http://
+127.0.0.1:9090
 yarn start
 ```
 
